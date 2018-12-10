@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
     modified_nvidia_model = modifiedNvidiaModel()
 
-    history_object = trainAndSave(modified_nvidia_model, 'md_nvidia_new2.h5', 3)
+    history_object = trainAndSave(modified_nvidia_model, 'md_nvidia.h5', 3)
 
     ### print the keys contained in the history object
     print(history_object.history.keys())
